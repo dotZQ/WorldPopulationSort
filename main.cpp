@@ -1,11 +1,3 @@
-//
-//  main.cpp
-//  WorldPopSort
-//
-//  Created by ZQ314159 on 1/7/2563 BE.
-//  Copyright © 2563 ZQ314159. All rights reserved.
-//
-
 #include <iostream>
 #include <stdlib.h>
 
@@ -85,7 +77,7 @@ void sortCity(City *allPointer,int len){
     
 }
 int main(int argc, const char * argv[]) {
-    FILE * f = fopen("--->file<---","r");
+    FILE * f = fopen("--->file<---","r");      ////////////////////////input WorldPop.txt
     char buffer[150];
     City all[4000];
     for (int i=0; i<4000; i++) {
